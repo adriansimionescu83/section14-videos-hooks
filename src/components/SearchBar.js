@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import useVideos from '../hooks/useVideos';
-
 
 const SearchBar = ({search}) => {
   const [term, setTerm] =  useState('');
